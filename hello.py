@@ -85,12 +85,11 @@ Example launch.json:
 {
     "version": "0.2.0",
     "configurations": [
-
         {
-            "name": "Python: Current File (Integrated Terminal)",
+            "name": "hello.py: wizard",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
+            "program": "hello.py",
             "console": "integratedTerminal",
             "args": ["--the-universe=\"Dumbledore\""]
         }

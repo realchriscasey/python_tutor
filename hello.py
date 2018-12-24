@@ -37,7 +37,7 @@ def parse_args():
 The use of a main() function is one way to highlight the script entrypoint
 As a bonus, you can safely reference functions that aren't yet defined.
 
-This main method accepts the 'args' result that 
+This main method accepts the 'args' result from ArgumentParser.parse_args()
 
 Note: the function "main" has no implicit handling or special meaning.
 Later on we will call it explicitly.
@@ -91,7 +91,7 @@ Example launch.json:
             "request": "launch",
             "program": "hello.py",
             "console": "integratedTerminal",
-            "args": ["--the-universe=\"Dumbledore\""]
+            "args": ["--the-universe=Universe"]
         }
 }
 """
